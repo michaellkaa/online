@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 20px ;
+    padding: 0%;
+    background-color: var(--first-color);
+    text-align: center;
+}
+
+#load-logo {
+    position: absolute;
+    top: 34%;
+    left: 38%;
+    height: 250px;
+    width: auto;
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.icons {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 0%;
+    margin-right: 20px;
+}
+
+.star-icon {
+    color: var(--second-color);
+    padding: 12px;
+}
+
+.star-icon:hover {
+    color: var(--third-color);
+}
+
+.home-icon {
+    color: var(--second-color);
+    padding: 12px;
+    text-decoration: none;
+}
+
+.home-icon:hover {
+    color: var(--third-color);
+}
+
+.portfolio-icon {
+    color: var(--second-color);
+    padding: 12px;
+    text-decoration: none;
+}
+
+.portfolio-icon:hover {
+    color: var(--third-color);
+}
+
+.lide h3 {
+    font-size: 35px;
+    text-align: center;
+    font-family: var(--first-font);
+    color: var(--second-color);
+}
+
+.fotka1 {
+    padding: 20px;
+}
+
+.fotka1 img {
+    height: 300px;
+    width: auto;
+}
+
+.fotka1 p {
+    font-family: var(--second-font);
+    color: var(--fourth-color);
+}
+
+.fotka2 {
+    padding: 20px;
+}
+
+.fotka2 img {
+    height: 300px;
+    width: auto;
+}
+
+.fotka2 p {
+    font-family: var(--second-font);
+    color: var(--fourth-color);
+}
