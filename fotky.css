@@ -57,10 +57,13 @@ body {
 }
 
 .lide h3 {
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
     font-family: var(--first-font);
     color: var(--second-color);
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.6px;
 }
 
 .fotka1 {
@@ -70,11 +73,26 @@ body {
 .fotka1 img {
     height: 300px;
     width: auto;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--fourth-color) ;
+}
+
+.fotka1 img:hover {
+    border-color: var(--third-color);
+    transition: 200ms;
 }
 
 .fotka1 p {
     font-family: var(--second-font);
+    font-weight: 600;
+    letter-spacing: 0.3px;
     color: var(--fourth-color);
+}
+
+.fotka1 p:hover {
+    color: var(--second-color);
 }
 
 .fotka2 {
@@ -84,9 +102,82 @@ body {
 .fotka2 img {
     height: 300px;
     width: auto;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--fourth-color) ;
+}
+
+.fotka2 img:hover {
+    border-color: var(--third-color);
+    transition: 200ms;
 }
 
 .fotka2 p {
     font-family: var(--second-font);
+    font-weight: 600;
+    letter-spacing: 0.3px;
     color: var(--fourth-color);
+}
+
+.fotka2 p:hover {
+    color: var(--second-color);
+}
+
+.fotka3 {
+    padding: 20px;
+}
+
+.fotka3 img {
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--fourth-color) ;
+}
+
+.fotka3 img:hover {
+    border-color: var(--third-color);
+    transition: 200ms;
+}
+
+.fotka3 p {
+    font-family: var(--second-font);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: var(--fourth-color);
+}
+
+.fotka3 p:hover {
+    color: var(--second-color);
+}
+
+.fotka4 {
+    padding: 20px;
+}
+
+.fotka4 img {
+    height: 300px;
+    width: auto;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--fourth-color) ;
+}
+
+.fotka4 img:hover {
+    border-color: var(--third-color);
+    transition: 200ms;
+}
+
+.fotka4 p {
+    font-family: var(--second-font);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: var(--fourth-color);
+}
+
+.fotka4 p:hover {
+    color: var(--second-color);
 }
